@@ -77,7 +77,7 @@ struct ContentView: View {
         let request = VNCoreMLRequest(model: model) { request, error in
             if let results = request.results as? [VNClassificationObservation] {
                 if let topResult = results.first {
-                    classification = "Classification: \(topResult.identifier) with  \(String(format: "%.2f", 100 * topResult.confidence))% confidence."
+                    classification = "Classification: \(topResult.identifier) with \(String(format: "%.2f", 100 * topResult.confidence))% confidence."
                     print(classification)
                 }
             } else {
