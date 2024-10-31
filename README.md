@@ -12,7 +12,7 @@ This is an iOS application that uses a pre-trained Core ML model (SqueezeNet) to
 
 ## Preview
 
-![App Screenshot](screenshot.png)
+<img src="screenshot.png" alt="App Screenshot" width="250"/>
 
 :sweat_smile: Yeah...
 
